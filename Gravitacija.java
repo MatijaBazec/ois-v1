@@ -1,16 +1,20 @@
+import java.util.*;
 public class Gravitacija {
+    
     
     public static void main(String[] args) { 
 
-        System.out.println("OIS je zakon!");
+        Scanner sc = new Scanner(System.in);
+        double p = sc.nextInt();
+        izpis(p, pospesek(p));
 
         
     
     
     }
     
-<<<<<<< HEAD
-    public static double pospesek(int visina) {
+
+    public static double pospesek(double visina) {
         
         //izračunamo vse spremenljivke vrednosti
         double r = visina + 6371000; //v kilometrih
@@ -24,9 +28,9 @@ public class Gravitacija {
         return g;
     }
     
-=======
-    public static void izpis(double nad_visina, double pospesek){
+
+    public static void izpis(double nadvisina, double pospesek){
         System.out.println(nadvisina + " " + pospesek);
     }
->>>>>>> izpis
+
 }
