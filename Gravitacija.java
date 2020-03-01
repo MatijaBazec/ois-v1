@@ -9,6 +9,7 @@ public class Gravitacija {
     
     }
     
+<<<<<<< HEAD
     public static double pospesek(int visina) {
         
         //izračunamo vse spremenljivke vrednosti
@@ -23,4 +24,9 @@ public class Gravitacija {
         return g;
     }
     
+=======
+    public static void izpis(double nad_visina, double pospesek){
+        System.out.println(nadvisina + " " + pospesek);
+    }
+>>>>>>> izpis
 }
